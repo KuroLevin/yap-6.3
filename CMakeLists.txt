@@ -180,7 +180,7 @@ option(WITH_PRISM    "use PRISM system in YAP" ${WITH_PACKAGES})
 option(WITH_PYTHON  "Allow Python->YAP  and YAP->Python" ${WITH_PACKAGES})
 option(WITH_R  "Use R Interface" ${WITH_PACKAGES})
 option(WITH_JAVA "Try to use Java (currently Java )" ${WITH_PACKAGES})
-option(WITH_Threads "Enable POSIX Style Threads" OFF)
+option(WITH_Threads "Enable POSIX Style Threads" ON)
 
 set(CMAKE_POSITION_INDEPENDENT_CODE TRUE)
 set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS TRUE)
